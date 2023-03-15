@@ -17,12 +17,16 @@ public class Cat {
     private String gender;
     private boolean hasFur;
 
+
+
     public int getEnergy() {
         return energy;
     }
 
     private final int MAX_ENERGY = 5;
     private int energy = 5;
+
+
 
     public Cat(String name, String color, String breed, String gender, boolean hasFur) {
         this.name = name;
